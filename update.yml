@@ -1,0 +1,10 @@
+-
+  name: Execute two commands on boston nodes
+  hosts: web
+  tasks:
+    
+    -  name: Execute a date command
+       command: yum update -y && yum upgrade -y
+    
+  ## -   name: Execute a command to display hosts file
+##      command: yum upgrade -y
