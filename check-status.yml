@@ -7,7 +7,7 @@
 #    - firewalld
     - httpd
 #    - vsftpd
-    - sshd
+#    - sshd
 #    - postfix
     register: result
     ignore_errors: yes
