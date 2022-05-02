@@ -1,0 +1,8 @@
+- 
+  name: copy module
+  hosts: web
+  tasks: 
+    - name: copy files
+      copy: 
+        src: /tmp/test.txt
+        dest: /home/
